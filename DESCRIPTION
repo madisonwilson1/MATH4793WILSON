@@ -2,12 +2,16 @@ Package: MATH4793WILSON
 Type: Package
 Title: Package Math4793
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Madison Wilson
+Maintainer: Madison Wilson <madisonw@ou.edu>
+Description: This contains R functions and documentation for projects.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/madisonwilson1/MATH4793WILSON
 BugReports: https://github.com/madisonwilson1/MATH4793WILSON/issues
+RoxygenNote: 7.0.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
